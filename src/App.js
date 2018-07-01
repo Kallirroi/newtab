@@ -69,7 +69,7 @@ class App extends Component {
   render() {
     return (
       <div className="main">
-        {this.state.images.map((d,i) => <img key={i} id={i} src={d.image ? d.image : d.url} height="25%" />) }
+        {this.state.images.map((d,i) => <img key={ Math.floor(Math.random() * i)} id={i} src={d.image ? d.image : d.url} height="25%" />) }
       </div>
     );
   }
