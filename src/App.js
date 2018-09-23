@@ -16,7 +16,7 @@ class App extends Component {
     super(props);
     this.state = {
       value: '',
-      channel: ['au-top-layout-bw', 'au-top-layout-color', 'architecture-drawings-and-speculations', 'au-top-poster', 'posters-1495721171', 'poster-design-1497727531', 'book-design--3'],
+      channel: ['au-top-layout-bw', 'au-top-layout-color', 'designing-small-books', 'good-looks-1516125611', 'au-top-poster', 'posters-1495721171', 'poster-design-1497727531', 'book-design--3'],
       url: '',
       channelName: '',
       chConnections: [],
