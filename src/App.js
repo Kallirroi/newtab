@@ -16,7 +16,7 @@ class App extends Component {
     super(props);
     this.state = {
       value: '',
-      channel: ['printspo', 'grids-x-page-layout', 'poster-graphic-vtuhjmghp88', 'ceramique','designing-small-books', 'good-looks-1516125611', 'au-top-poster'],
+      channel: ['au-top-images', 'printspo', 'layout-1509486614', 'grids-x-page-layout', 'design-3pwgulalx-0', 'ceramique', 'good-looks-1516125611'],
       url: '',
       channelName: '',
       chConnections: [],
